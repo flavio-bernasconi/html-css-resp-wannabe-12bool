@@ -80,7 +80,7 @@ img{
 }
 
 #why .row hr{
-  margin-top: 40px;
+  display: none;
 }
 
 @media screen and (max-width:1000px) {
@@ -121,6 +121,9 @@ img{
     height: 100px;
   }
 
-
+  #why .row hr{
+    display: block;
+    margin-top: 40px;
+  }
 
 }
